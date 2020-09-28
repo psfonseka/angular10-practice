@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 import { TextInputComponent } from './text-input/text-input.component';
-import { TooltipComponent } from './tooltip/tooltip.component';
+import { OverlayComponent } from './overlay/overlay.component';
 
 
 @NgModule({
@@ -17,7 +17,7 @@ import { TooltipComponent } from './tooltip/tooltip.component';
     HomepageComponent,
     AboutComponent,
     TextInputComponent,
-    TooltipComponent,
+    OverlayComponent,
   ],
   imports: [
     BrowserModule,
