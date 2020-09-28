@@ -9,6 +9,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 import { TextInputComponent } from './text-input/text-input.component';
 import { OverlayComponent } from './overlay/overlay.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { OverlayComponent } from './overlay/overlay.component';
     AboutComponent,
     TextInputComponent,
     OverlayComponent,
+    TooltipComponent,
   ],
   imports: [
     BrowserModule,
