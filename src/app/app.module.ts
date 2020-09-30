@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { TextInputComponent } from './text-input/text-input.component';
 import { OverlayComponent } from './overlay/overlay.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -25,6 +28,8 @@ import { TooltipComponent } from './tooltip/tooltip.component';
     BrowserModule,
     AppRoutingModule,
     OverlayModule,
+    MatTooltipModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
